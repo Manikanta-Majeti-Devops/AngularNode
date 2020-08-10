@@ -4,6 +4,9 @@
 
 const { SpecReporter } = require('jasmine-spec-reporter');
 
+//const jsGlobalEntriesToInstall = Object.entries(jsGlobals).filter(([name]) => name in global);
+global.globalThis = xxx
+
 /**
  * @type { import("protractor").Config }
  */
